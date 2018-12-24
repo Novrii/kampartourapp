@@ -39,8 +39,8 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_info"
-                android:title="Profil Kampar" />
+                android:icon="@drawable/ic_location"
+                android:title="Lokasi Saya" />
             <!--<item-->
                 <!--android:id="@+id/nav_send"-->
                 <!--android:icon="@drawable/ic_phone"-->
