@@ -18,7 +18,7 @@ public class FragmentLima extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.fragment_lima);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.google.com/maps/search/?api=1&query=lokasi+saya");
+        webView.loadUrl("file:///android_asset/lokasisaya.html");
 
         return v;
     }
