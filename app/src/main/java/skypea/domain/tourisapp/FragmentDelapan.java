@@ -46,7 +46,7 @@ public class FragmentDelapan extends Fragment {
         webView.getSettings().setGeolocationEnabled(true);
         webView.setWebChromeClient(new GeoWebChromeClient());
 
-        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=perbelanjaan");
+        webView.loadUrl("http://tour.cleanis.ga/ai/index.php?module=perbelanjaan");
 
         return v;
     }

@@ -46,7 +46,7 @@ public class FragmentSatu extends Fragment {
         webView.setWebChromeClient(new GeoWebChromeClient());
 
 
-        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=tourism");
+        webView.loadUrl("http://tour.cleanis.ga/ai/index.php?module=tourism");
 
         return v;
     }

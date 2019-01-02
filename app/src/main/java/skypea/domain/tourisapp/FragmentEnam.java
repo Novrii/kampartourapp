@@ -45,7 +45,7 @@ public class FragmentEnam extends Fragment {
         webView.getSettings().setGeolocationEnabled(true);
         webView.setWebChromeClient(new GeoWebChromeClient());
 
-        webView.loadUrl("http://alumni.kamaludin.ga/teleponpenting.php");
+        webView.loadUrl("http://tour.cleanis.ga/teleponpenting.php");
 
         return v;
     }
